@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- end font awesome import -->
+    <!-- google fonts import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <!-- google fonts end -->
+    <!-- my css files -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- end my css files -->
+</head>
+<body lang="ar">
+    <div class="location-window">
+        <div class="box-container">
+            <div class="box">
+                <p>إضافة عنوان جديد</p>
+                <div>
+                    <img src="assets/images/Flag_of_Egypt.svg.png" alt="">
+                    <span>الشحن إلى</span>
+                    <option value="">
+                        <select name="" id="">مصر</select>
+                    </option>
+                </div>
+            </div>
+            <div class="map-container">
+                <img class="general-location-map" src="assets/images/location-window/General-location-map.png" alt="">
+                <input class="search" type="text" placeholder="بحث عن موقع">
+                <span class="target">حدد مكاني<i class="fa-solid fa-location-dot"></i></span>
+                <div class="zoom">
+                    <span>+</span>
+                    <span>-</span>
+                </div>
+            </div>
+            <button>تأكيد الموقع</button>
+        </div>
+    </div>
+    <header class="main-header">
+        <div class="container">
+            <a href=""><img id="header-logo" src="assets/images/noon-logo-ar.svg" alt="" srcset=""></a>
+            <div class="choose-delivery">
+                <img class="egypt-flag" src="assets/images/Flag_of_Egypt.svg.png" alt="">
+                <span class="deliver-to">تسليم إلى <span class="country-name">القاهرة</span></span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+            <input class="search-bar" type="text" placeholder="انت بتدور على ايه؟">
+            <nav>
+                <ul>
+                    <li><a href="">عربة التسوق<i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a href="">تسجيل الدخول<i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Start second header choose products -->
+    <header class="filter-header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="">جميع الفئات</a></li>
+                    <li><a href="">الإلكترونيات</a></li>
+                    <li><a href="">موبايلات</a></li>
+                    <li><a href="">رجالية</a></li>
+                    <li><a href="">نسائيه</a></li>
+                    <li><a href="">المنزل</a></li>
+                    <li><a href="">الجمال والعطور</a></li>
+                    <li><a href="">الأطفال والالعاب</a></li>
+                    <li><a href="">سوبر ماركت</a></li>
+                    <li><a href="">بيع في نون</a></li>
+                    <li><a href="">العروض</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="home">
+        <div class="container">
+            <article class="products-slide">
+                <span class="right-shape"></span>
+                <span class="left-shape"></span>
+                <div class="image-slide">
+                    <img src="assets/images/ar_dk_eg-hero-01.avif" alt="">
+                    <img src="assets/images/ar_dk_eg-hero-banner-01.avif" alt="">
+                    <img src="assets/images/ar_dk_eg-hero-banner-01 (2).avif" alt="">
+                    <img src="assets/images/ar_dk_eg-hero-banner-01 (3).avif" alt="">
+                    <img src="assets/images/ar_dk_eg-hero-banner-01 (4).avif" alt="">
+                    <img src="assets/images/ar_dk_eg-hero-banner-01 (5).avif" alt="">
+                    <img src="assets/images/ar_dk_eg-hero-banner-01 (6).avif" alt="">
+                </div>
+
+                <div class="arrows">
+                    <i id="left-arrow" class="fa-solid fa-arrow-left-long left-arrow"></i>
+                    <i id="right-arrow" class="fa-solid fa-arrow-right-long right-arrow"></i>
+                </div>
+                <div class="lines">
+                    <span class="line active"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </article>
+            <article class="products-list">
+                    <div class="products">
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-01.avif" alt="">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-04.avif" alt="">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-05.avif" alt="">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-01.avif" alt="">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-01.png" alt="">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-02.png" alt="">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-03.png" alt="">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-04.png" alt="">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-06.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-07.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-08.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-09.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-10.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-11.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-12.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-13.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-14.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-15.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-16.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-17.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-18.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-19.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-20.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-21.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-22.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-23.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-24.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-25.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-26.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-27.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-28.png" alt="s">
+                        </div>
+                        <div class="product">
+                            <img src="assets/images/products-list/ar_dk_eg-cb-29.png" alt="s">
+                        </div>
+                    </div>
+            </article>
+            <article class="offers">
+                <div class="boxes-container">
+                    <h2>اشتري أكتر وبالك مرتاح</h2>
+                    <div class="box-container">
+                        <div class="box">
+                            <img src="assets/images/offers/ar_dk_eg-explore-01.png" alt="">
+                        </div>
+                        <div class="box">
+                            <img src="assets/images/offers/ar_dk_eg-explore-02.png" alt="">
+                        </div>
+                        <div class="box">
+                            <img src="assets/images/offers/ar_dk_eg-explore-03.png" alt="">
+                        </div>
+                        <div class="box">
+                            <img src="assets/images/offers/ar_dk_eg-explore-04.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes-container">
+                    <h2>عروض ميجا أخر الأسبوع</h2>
+                    <div class="box-container">
+                        <div class="box">
+                            <img src="assets/images/offers/ar_dk_eg-mega-01.png" alt="">
+                        </div>
+                        <div class="box">
+                            <img src="assets/images/offers/ar_dk_eg-mega-02.png" alt="">
+                        </div>
+                        <div class="box">
+                            <img src="assets/images/offers/ar_dk_eg-mega-03.png" alt="">
+                        </div>
+                        <div class="box">
+                            <img src="assets/images/offers/ar_dk_eg-mega-04.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes-container">
+                    <h2>شوف كل الخصومات</h2>
+                    <div class="box-container">
+                        <div class="box">
+                            <img src="assets/images/offers/ar_dk_eg-top-01.gif" alt="">
+                        </div>
+                        <div class="box">
+                            <img src="assets/images/offers/ar_dk_eg-top-01.png" alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="best-offers">
+                <h2>عروضنا المفضلة</h2>
+                <div class="boxes-container">
+                    <div class="box">
+                        <img src="assets/images/best-offers/N43344340A_1.avif" alt="">
+                        <span>سامسونج تلفزيون LED ذكي</span>
+                        <span>فائق الوضوح بدقة فائقة 4K م</span>
+                        <span>جنيه 11599.00 </span>
+                        <div class="info">
+                            <span>إكسبرس</span>
+                            <div>
+                                <span class="green">4.7<i class="fa-solid fa-star"></i></span>
+                                <span>(28)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="assets/images/best-offers/N47626990A_1.avif" alt="">
+                        <span>أبل آيربودز برو مع علبة شحن ماج</span>
+                        <span>سيف لعام 2021 أبيض </span>
+                        <span>جنيه 7460.00 </span>
+                        <div class="info">
+                            <span>إكسبرس</span>
+                            <div>
+                                <span class="green">3.9<i class="fa-solid fa-star"></i></span>
+                                <span>(1.2k)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="assets/images/best-offers/N51993467A_1.avif" alt="">
+                        <span>إنفينيكس هاتف سمارت 6 ثنائي</span>
+                        <span>الشريحة بذاكرة رام سعة 2 جيجا</span>
+                        <span>جنيه 2929.00 </span>
+                            <div class="flex-col">
+                              <span class="dash">3299</span>
+                              <span class="offer-number">خصم 11%</span>
+                            </div>
+                            <div class="info">
+                                <span>إكسبرس</span>
+                                <div>
+                                    <span class="green">4.4<i class="fa-solid fa-star"></i></span>
+                                    <span>(177)</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="box">
+                        <img src="assets/images/best-offers/N52452107A_1.avif" alt="">
+                        <span>شاومي Redmi Watch 2 Lite</span>
+                        <span>5ATM Water Resistant, GPS 5</span>
+                            <div class="flex-col f2">
+                              <span>جنيه 1849.00 </span>
+                              <span class="dash">1930</span>
+                            </div>
+                            <div class="info">
+                                <span>إكسبرس</span>
+                                <div>
+                                    <span class="green">4.3<i class="fa-solid fa-star"></i></span>
+                                    <span>(109)</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="box">
+                        <img src="assets/images/best-offers/N52737382A_1.avif" alt="">
+                        <span>لينوفو لابتوب آيديا باد 15ITL63</span>
+                        <span>بشاشة مقاس 15.6 بوصة بدقة</span>
+                        <span>جنيه 19699.00 </span>
+                        <div class="info">
+                            <span>إكسبرس</span>
+                            <div>
+                                <span class="green">5.0<i class="fa-solid fa-star"></i></span>
+                                <span>(2)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="assets/images/best-offers/N53353317A_1.avif" alt="">
+                        <span>أيسر A3 - A315-56-35Tf Laptop</span>
+                        <span>With 15.6-Inch Display Core I3</span>
+                        <span>جنيه 7999.00 </span>
+                        <div class="info">
+                            <span>إكسبرس</span>
+                            <div>
+                                <span class="red">2.6<i class="fa-solid fa-star"></i></span>
+                                <span>(7)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <script src="assets/scripts/main.js"></script>
+</body>
+</html>
